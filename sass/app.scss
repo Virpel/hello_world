@@ -1,0 +1,70 @@
+@import 'typo';
+@import 'functions';
+@import 'media';
+@import 'colors';
+
+* {
+	transition: all .15s ease;
+	box-sizing: border-box;
+}
+
+$fullwidth: 100%;
+$wrap:1280px;
+
+body{
+	background-color: var(--color-page-background);
+	padding:0;
+	margin:0;
+}
+
+.top-header{
+	margin-bottom:0.25em;
+	border-bottom:2px solid var(--color-border);
+	padding:0px 10px;
+	width: $fullwidth;
+    display: block;
+	background-color: var(--color-page-background);
+}
+
+.top-header-grid {
+	display: grid;
+	grid-template-columns: 70% 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 1px;
+	width: $fullwidth
+}
+
+.c-brand-cn{
+	fill: var(--background-color-muted-alpha);
+}
+
+header{
+	background-color: var(--color-header-background);
+}
+
+.header-grid {
+	display: grid;
+	grid-template-columns: minmax(min-content, 250px) 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 1px;
+	width: $fullwidth
+}
+
+
+.wrap{
+	max-width: $wrap;
+	margin: 0 auto;
+}
+
+.logo {
+	fill: var(--color-logo-background);
+}
+
+.welcome-heading{
+	color: var(--color-header-text);
+	font-size: font-scale(1)/1.5;
+  	line-height: units(1);
+}
+
+
+	

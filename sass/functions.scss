@@ -1,0 +1,17 @@
+@for $value from 1 through 12 {
+
+    $width: percentage($value/12);
+
+    .col-md-#{$value} {
+        width: $width;
+    }
+}
+
+@for $value from 5 through 50 {
+
+    $num: max($value);
+
+    .p-#{$value} {
+        padding: $num+px;
+    }
+}

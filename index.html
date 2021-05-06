@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/app.min.css">
+    <script src="/js/main.js"></script>
+    <title>Hello World</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+    <meta name="title" content="The New Hello World" />
+    <meta name="description" content="Un sito Hello World" />
+    <meta name="language" content="it" />
 </head>
-<body>
-    
-</body>
+<html>
+    <body data-theme="">
+        <button class="switch" data-switch-dark aria-hidden>Night mode</button>
+        <div class="top-header">
+            <div class="wrap d-flex">
+                <div class="top-header-grid">
+                    <div class="col-md-12 tex-b-2 d-flex al-cent label-02">
+                        Giovedì, 6 Maggio 2021
+                    </div>
+                    <div class="col-md-12 pad-t-b">
+                        <a href="//www.citynews.it/" target="_blank" rel="noopener noreferrer">
+                            <svg class="c-brand-cn" width="91" height="24">
+                            <use xlink:href="#brand-citynews">
+                                <svg id="brand-citynews" viewBox="0 0 91 24">
+                                    <path d="M35.21 7.82l.18.16 1.6 5.9 2.11-5.9.18-.16h2.85l.17.16-5.59 15.87-.15.13-3.03.02-.1-.17 1.91-5.35-3.93-10.5.18-.16h3.62zM11.64 0a11.59 11.59 0 015.78 1.55l.05.15C16.7 3 16.5 3.34 15.8 4.62l-.18.01-.31-.16a8.2 8.2 0 00-3.67-.89 8.08 8.08 0 103.99 15.14l.16.02c.7 1.28.9 1.61 1.67 2.92l-.05.15a11.85 11.85 0 01-5.77 1.54A11.66 11.66 0 010 11.67C0 5.23 5.21 0 11.64 0zm16.8 4.88l.17.17V7.8h1.94l.18.18v2.07l-.18.17h-1.94l-.01 2.7c-.02.82.01 1.96.04 2.5.03.37 0 1.2 1.02 1.2s1.15-.2 1.15-.2l.17.18v2l-.18.17c.01.01-1.09.31-2.32.31-3.23 0-3.28-2.06-3.28-3.97v-4.89h-.98l-.17-.17V7.97l.17-.18h.98V5.05l.18-.17h3.05zm59.14 2.65c1.16 0 2.23.3 3.36.9l.06.2c-.48 1.08-.43.87-.8 1.82l-.16.06a7 7 0 00-2.64-.74c-1.12.01-1.68.57-1.75 1.06-.08.62.68.89 1.18 1.14l.44.23c.83.46 2.3 1.1 2.04 2.95-.14.99-1.07 3.92-5.62 3.92-2.1 0-3.14-.64-3.74-1.04l-.04-.18.86-2 .2-.07c.42.3 1.82.96 2.79.96 1.6 0 1.9-.92 1.95-1.2.1-.72-.54-1.05-1.21-1.38l-.42-.23-.25-.14c-.92-.51-1.72-1.03-1.5-2.53.07-.51.7-3.73 5.25-3.73zm-26.31.04c.94 0 1.9.19 2.52.6 1.39.87 1.28 2.4 1.16 3.26-.14.97-.41 1.7-.68 2.38l-.17.17h-6.58c-.06.24-.11.5-.14.73-.18 1.23.56 1.94 2.23 1.94a6.9 6.9 0 003.58-1.13l.18.17-.86 2.42-.16.17c-.56.27-1.7.78-3.74.78-2.92 0-3.7-1.1-4-1.56-.64-.94-.67-1.97-.52-3.07.43-3.05 2.84-6.86 7.18-6.86zm8.4.25l.18.17-1.04 7.32 2.53-4.3L73.02 8l.18-.17h3.57l.18.17-1.18 7.46L80.05 8l.17-.17h2.55l.17.17-6.55 10.75-.18.17h-3.48l-.18-.17 1.01-7.44-4.32 7.44-.17.17h-3.39l-.17-.17.86-10.76.16-.16h3.14zm-47.3 2.04l.17.18v8.69l-.18.17h-3.08l-.18-.17v-8.7l.18-.17h3.08zm29.3-2.31c1.3 0 2.72.63 2.43 2.7-.13.94-.84 2.9-1.4 4.36l-.47 1.44-.9 2.67-.18.17h-3.27l-.18-.17 1.32-3.52.76-2.13c.14-.42.42-1.25.49-1.7.1-.75-.38-1.17-.96-1.17-.62 0-1.16.3-1.72.63l-2.82 7.9-.18.17h-3.25l-.18-.17 3.87-10.75.18-.18h3.23l.17.18-.26.75a5.9 5.9 0 013.33-1.18zM11.7 5.48c1.15 0 2.23.31 3.16.87l-.6 1.01a4.79 4.79 0 00-2.14-.68v-.52s-.19.07-.27.07a5.77 5.77 0 00-5.65 6.44h.53a4.9 4.9 0 004.96 4.19 5.1 5.1 0 002.58-.87l.6 1.01A6.19 6.19 0 1111.7 5.48zm.42 2.2a4.12 4.12 0 01-.42 8.2 3.97 3.97 0 01-3.95-3.21h1.73c-.07 0-.1-.6-.1-.83 0-1.3 1.06-2.49 2.33-2.49.14 0 .21.01.41.04zM60.9 9.62c-.35 0-.9.09-1.56.64-.65.54-.95 1.18-1.2 1.7l3.72-.03c.11-.31.2-.62.25-.94.1-.69-.22-1.37-1.2-1.37zM22.36 5.06l.17.18v2.74l-.17.18h-3.08l-.18-.18V5.24l.18-.18h3.08z" fill-rule="nonzero"></path>
+                                </svg>
+                            </use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div class="wrap d-flex p-10">
+                <div class="header-grid">
+                    <div class="col-md-12">
+                        <div class="box-logo">
+                            <svg class="logo logo--resize-medium logo--inverse" viewBox="0 0 170 50" xmlns="http://www.w3.org/2000/svg">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#brand-logo">
+                                    <svg id="brand-logo">
+                                        <path d="M29.7 4.6V1.4H.5v9.3h9.7v38H20v-38h5.9c1-2.5 2.2-4.5 3.8-6zm119 27.2l12-30.4h-10l-4.6 13-1.8 5.6h-.2l-1.8-5.7-4.4-13h-11.1l12.1 30.5v16.8h9.9V31.8zM27.3 24.9c0 18.2 6.6 24.6 17.4 24.6 11 0 17.4-6.6 17.4-24.4C62 7 55.5.5 44.6.5 33.7.5 27.2 7 27.2 24.9zm10.2 0c0-11.5 2.3-15 7.3-15 4.8 0 7.2 3.5 7.2 15.2 0 11.6-2.4 15-7.2 15-5 0-7.3-3.5-7.3-15.2zM66 1.4v47.2h15c12.1 0 17.2-8.7 17.2-23.4 0-15-5.4-23.8-17.6-23.8H66.1zm9.8 37.9V10.7h4c5.4 0 8.3 3.4 8.3 14.8 0 10.1-2.9 13.8-8.4 13.8h-3.9zm44.3 1l1.5 8.3H132L122 1.4h-14l-9.9 47.2h10l1.4-8.3h10.7zm-1.6-9H111l2.1-12 1.5-8.6h.3l1.5 8.8 2 11.7z"></path>
+                                    </svg>
+                                </use>
+                            </svg>
+                        </div>
+                        <div class="welcome-heading">
+                            prova prova prova prova prova prova prova prova prova<br>
+                            prova prova prova prova prova prova prova prova prova<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </body>
 </html>

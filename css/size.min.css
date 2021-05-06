@@ -1,0 +1,14 @@
+.pad-t-b {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.tex-b-2 {
+  font-weight: bold;
+}
+
+.al-cent {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
