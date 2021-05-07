@@ -1,5 +1,35 @@
-@media screen and (min-width: 740px) {
-  .logo--resize-medium {
-    height: var(--brand-height-large);
+@media screen and (min-width: 768px) {
+  .logo--resize-large {
+    height: var(--logo-height-lg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo--resize-large {
+    height: var(--logo-height-sm);
+  }
+  a.navbar__item {
+    font-size: 16px;
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .logo--resize-large {
+    height: var(--logo-height-sm);
+  }
+  a.navbar__item {
+    padding: 0rem 0rem;
+  }
+  .top-header-grid {
+    -ms-grid-columns: auto 120px 100px !important;
+        grid-template-columns: auto 120px 100px !important;
+  }
+  .top-header-grid div:nth-child(2) {
+    display: none;
+  }
+  .label-02 {
+    font-size: 12px !important;
+    line-height: 14px !important;
   }
 }

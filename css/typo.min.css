@@ -7,24 +7,6 @@
   font-weight: bold;
 }
 
-.d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.just-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.al-cent {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .label-02 {
   color: var(--color-text);
   font-size: 16.36364px;
